@@ -1,0 +1,85 @@
+.logo {
+  width: 100%;
+  height: auto;
+}
+.logo .logo-inner {
+  width: 1005;
+  height: auto;
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.logo-inner .logo-text {
+  display: flex;
+  width: 100%;
+  align-items: end;
+  gap: 20px;
+  justify-content: end;
+}
+.logo-inner .logo-text .btn2 {
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 800;
+  background-color: transparent;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.logo-inner .logo-text .btn2:hover {
+  background-color: #fff;
+  color: black;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+.logo-text .btn1 {
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 800;
+  background-color: transparent;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.logo-inner .logo-text .btn1:hover {
+  background-color: #fff;
+  color: black;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+.logo-inner .logo-text button .icon {
+  background-color: transparent;
+}
+.logo-inner .logo-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.logo-inner .logo-img .one {
+  width: 350px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-between;
+  background-color: #c2ddeb;
+  border-radius: 20px;
+  padding: 60px;
+}
+.logo-img .one img {
+  background-color: transparent;
+}
+.logo-img .one p {
+  background-color: transparent;
+}

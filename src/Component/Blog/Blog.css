@@ -1,0 +1,88 @@
+.blog {
+  width: 100%;
+  height: auto;
+}
+.blog .blog-inner {
+  padding: 50px 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.blog-inner .blog-img {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.blog-img .one {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+.blog-img .one img {
+  width: 350px;
+  border-radius: 10px;
+  height: 300px;
+}
+.blog-img .one h3 {
+  color: #fff;
+  font-weight: 800;
+  font-size: 20px;
+}
+.blog-img .one p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+.blog-inner .blog-text {
+  display: flex;
+  gap: 10px;
+}
+.blog-inner .blog-text .btn2 {
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 800;
+  background-color: transparent;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.blog-inner .blog-text .btn2:hover {
+  background-color: #fff;
+  color: black;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+.blog-text .btn1 {
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 800;
+  background-color: transparent;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.blog-inner .blog-text .btn1:hover {
+  background-color: #fff;
+  color: black;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+.blog-inner .blog-text button .icon {
+  background-color: transparent;
+}

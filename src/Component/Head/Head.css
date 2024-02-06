@@ -1,0 +1,92 @@
+.head {
+  width: 218.66px;
+  height: 274px;
+  top: 50px;
+  left: 50px;
+  gap: 23px;
+  margin: 40px;
+  margin-bottom: 40px;
+}
+.head .head-inner {
+  width: 218.66px;
+  height: 274px;
+  top: 50px;
+  left: 50px;
+  gap: 23px;
+  display: flex;
+}
+.head-inner .head-img {
+  width: 30%;
+}
+.head-img img {
+  width: 42.66px;
+  height: 56px;
+  padding: 6px, 0px, 0px, 0px;
+  gap: 10px;
+  cursor: pointer;
+}
+.head-inner .head-text {
+  width: 70%;
+  /* border: 1px solid red; */
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+.head-text .icon {
+  display: none;
+}
+.head-text .link ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 4px;
+}
+.link ul li {
+  width: 122px;
+
+  top: 43px;
+  font-family: Jost;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 43px;
+  letter-spacing: 0em;
+  cursor: pointer;
+  color: #e3e7f280;
+  transition: 0.2s ease;
+}
+.link ul li:hover {
+  width: 81px;
+  height: 43px;
+  font-family: Jost;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-decoration-line: underline;
+  color: #e3e7f2;
+  gap: 5px;
+}
+.head-text .til {
+  display: flex;
+  gap: 30px;
+}
+.til p {
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #e3e7f24d;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.til p:hover {
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #e3e7f2;
+}

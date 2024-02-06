@@ -1,0 +1,31 @@
+#service {
+  width: 100%;
+  height: auto;
+}
+#service marquee {
+  font-family: Jost;
+  font-size: 150px;
+  font-weight: 600;
+  line-height: 217px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #e3e7f2;
+  position: relative;
+  top: 300px;
+  background-color: transparent;
+}
+#service .service-inner {
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.service-inner .service-text {
+  background-image: url(../../images/service.svg);
+  background-position: center;
+  width: 60%;
+  height: 400px;
+  /* height: auto; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
