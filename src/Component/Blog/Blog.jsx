@@ -2,8 +2,6 @@ import React from "react";
 import house from "../../images/1.png";
 import house1 from "../../images/2.png";
 import house2 from "../../images/3.png";
-import { BsArrowRightShort } from "react-icons/bs";
-import { BsArrowLeftShort } from "react-icons/bs";
 import "./Blog.css";
 
 export const Blog = () => {
@@ -34,10 +32,10 @@ export const Blog = () => {
             </div>
             <div className="blog-text">
               <button className="btn2">
-                <BsArrowLeftShort className="icon" />
+                <i className="icon bx bx-left-arrow-alt"></i>
               </button>
               <button className="btn1">
-                <BsArrowRightShort className="icon" />
+                <i class="icon bx bx-right-arrow-alt"></i>
               </button>
             </div>
           </div>

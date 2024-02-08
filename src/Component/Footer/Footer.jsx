@@ -1,6 +1,5 @@
 import React from "react";
-import { BsArrowRightShort } from "react-icons/bs";
-import { BsArrowLeftShort } from "react-icons/bs";
+
 import "./Footer.css";
 
 export const Footer = () => {
@@ -20,10 +19,10 @@ export const Footer = () => {
               <p> жилой комплекс с зеркальными стенами</p>
               <div className="btn">
                 <button>
-                  <BsArrowRightShort className="icon" />
+                  <i className="icon bx bx-right-arrow-alt"></i>
                 </button>
                 <button>
-                  <BsArrowLeftShort className="icon" />
+                  <i className="icon bx bx-left-arrow-alt"></i>
                 </button>
               </div>
             </div>

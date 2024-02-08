@@ -2,8 +2,7 @@ import React from "react";
 import logo from "../../images/1.svg";
 import logo2 from "../../images/2.svg";
 import logo3 from "../../images/3.svg";
-import { BsArrowRightShort } from "react-icons/bs";
-import { BsArrowLeftShort } from "react-icons/bs";
+
 import "./Logo.css";
 
 export const Logo = () => {
@@ -14,10 +13,10 @@ export const Logo = () => {
           <div className="logo-inner">
             <div className="logo-text">
               <button className="btn2">
-                <BsArrowLeftShort className="icon" />
+                <i className="iconbx bx-left-arrow-alt"></i>{" "}
               </button>
               <button className="btn1">
-                <BsArrowRightShort className="icon" />
+                <i className="icon bx bx-left-arrow-alt"></i>
               </button>
             </div>
             <div className="logo-img">

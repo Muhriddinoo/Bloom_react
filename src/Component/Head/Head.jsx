@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../images/logo.svg";
-import { CiMenuBurger } from "react-icons/ci";
+
 import "./Head.css";
 
 export const Head = () => {
@@ -13,9 +13,6 @@ export const Head = () => {
           </div>
           <div className="head-text">
             <div className="link">
-              <div className="menu">
-                <CiMenuBurger className="icon" />
-              </div>
               <ul>
                 <li>О нас</li>
                 <li>Сервисы</li>
