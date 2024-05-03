@@ -10,3 +10,28 @@
   width: 1260px;
   margin: 0 auto;
 }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+  .head {
+    background-color: transparent;
+  }
+  .head .head-inner {
+    flex-direction: column;
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+  }
+  .navbar-inner {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    background-position: center;
+    background-size: cover;
+  }
+  .navbar-icon {
+    left: -180px;
+    top: -1000px;
+  }
+}

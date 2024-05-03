@@ -10,6 +10,7 @@ import { Portfolio } from "./Component/Portfolio/Portfolio";
 import { Blog } from "./Component/Blog/Blog";
 import { Client } from "./Component/Client/Client";
 import { Logo } from "./Component/Logo/Logo";
+import { Contact } from "./Component/Contact/Contact";
 
 export const App = () => {
   return (
@@ -22,6 +23,7 @@ export const App = () => {
       <Blog />
       <Client />
       <Logo />
+      <Contact />
     </>
   );
 };

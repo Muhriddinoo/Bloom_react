@@ -1,0 +1,224 @@
+.contact {
+  width: 100%;
+  height: auto;
+}
+.contact .contact-inner {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  background-color: #111;
+  margin-top: 150px;
+}
+
+.contact-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  background-color: #141413;
+  bottom: 100px;
+  left: 378px;
+  z-index: 1;
+  /* padding: 14px, 14px, 26px, 26px; */
+  border: 3px;
+  padding: 20px;
+  transition: ease-in-out 0.1s;
+  border: 1px solid #e3e7f2;
+}
+.contact-icon:hover {
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  padding-bottom: 40px;
+  padding-left: 40px;
+}
+.contact-icon .icon-icon-img {
+  display: flex;
+  width: 100%;
+  align-items: end;
+  justify-content: end;
+  background-color: transparent;
+}
+.icon-icon-img svg {
+  background-color: transparent;
+}
+.contact-icon p {
+  width: 200px;
+  height: 60px;
+  font-family: Jost;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  background-color: transparent;
+  text-align: left;
+  color: #e3e7f2;
+}
+.contact-inner .contact-text {
+  display: flex;
+  background-color: #111;
+  position: relative;
+  bottom: 200px;
+}
+.contact-text .contact-text-head {
+  background-color: #111;
+}
+.home {
+  width: 218.66px;
+  height: 274px;
+  top: 50px;
+  left: 50px;
+  gap: 23px;
+  margin: 40px;
+  margin-bottom: 40px;
+  background-color: #111;
+}
+.home .home-inner {
+  width: 218.66px;
+  height: 274px;
+  top: 50px;
+  left: 50px;
+  gap: 23px;
+  display: flex;
+  background-color: #111;
+}
+.home-inner .home-img {
+  width: 30%;
+  background-color: #111;
+}
+.home-img img {
+  width: 42.66px;
+  height: 56px;
+  padding: 6px, 0px, 0px, 0px;
+  gap: 10px;
+  background-color: #111;
+  cursor: pointer;
+}
+.home-inner .home-text {
+  width: 70%;
+  /* border: 1px solid red; */
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  background-color: #111;
+}
+.home-text .icon {
+  display: none;
+}
+.home-text .home-link ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  background-color: #111;
+  gap: 4px;
+}
+.home ul li {
+  width: 122px;
+  background-color: #111;
+
+  top: 43px;
+  font-family: Jost;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 43px;
+  letter-spacing: 0em;
+  cursor: pointer;
+  color: #e3e7f280;
+  transition: 0.2s ease;
+}
+.home-link ul li:hover {
+  width: 81px;
+  height: 43px;
+  font-family: Jost;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-decoration-line: underline;
+  color: #e3e7f2;
+  gap: 5px;
+}
+.home-text .til {
+  display: flex;
+  gap: 30px;
+}
+.til p {
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #e3e7f24d;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.til p:hover {
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #e3e7f2;
+}
+.contact-text .icon-img {
+  background-color: #111;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  gap: 30px;
+  height: 280px;
+}
+.contact-text .icon-img i {
+  padding: 10px;
+  background-color: #111;
+  border: 1px solid #fff;
+  font-size: 30px;
+  color: #8e8e8f;
+  cursor: pointer;
+}
+.contact-text .icon-img i:hover {
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  color: #fff;
+}
+.contact-inner .contact-text-text {
+  display: flex;
+  background-color: #111;
+  position: relative;
+  bottom: 100px;
+  gap: 50px;
+  left: 150px;
+}
+.contact-inner .contact-text-text h3 {
+  font-weight: 700;
+  color: #e3e7f2;
+  background-color: #111;
+}
+.contact-inner .line {
+  width: 70%;
+  height: 2px;
+  border: 1px solid #fff;
+  position: relative;
+  bottom: 70px;
+  left: 190px;
+}
+.contact-inner .text {
+  display: flex;
+  color: #e3e7f2;
+  font-weight: 700;
+  position: relative;
+  bottom: 60px;
+  right: 50px;
+}
+.text h3 {
+  background-color: #111;
+}

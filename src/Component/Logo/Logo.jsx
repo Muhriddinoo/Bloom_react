@@ -13,10 +13,10 @@ export const Logo = () => {
           <div className="logo-inner">
             <div className="logo-text">
               <button className="btn2">
-                <i className="iconbx bx-left-arrow-alt"></i>{" "}
+                <i className="bx bx-left-arrow-alt"></i>
               </button>
               <button className="btn1">
-                <i className="icon bx bx-left-arrow-alt"></i>
+                <i className="bx bx-right-arrow-alt"></i>
               </button>
             </div>
             <div className="logo-img">
